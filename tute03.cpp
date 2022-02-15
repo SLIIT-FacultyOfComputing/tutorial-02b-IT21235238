@@ -12,14 +12,14 @@ int main()
     int no;
     long fac;
 
-    cout <<"Enter a Number : ";
-    cin >>no;
+    cout<<"Enter a Number : ";
+    cin >> no;
 
     fac = 1;
     for (int r=no; r >= 1; r--) {
         fac = fac * r;
     }
 
-    cout<<"Factorial of is :" << no<< fac<< endl;  
+    cout<<"Factorial of is "<< no<< fac<< endl;  
     return 0;
 }
